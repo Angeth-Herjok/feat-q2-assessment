@@ -131,6 +131,16 @@ diets.knowPrey()
 // you might model the `Artist`, `Performance`, and `Stage` classes, and consider
 // how you might use inheritance if there are different types of performances or
 // stages.
+class MusicFestival{
+    constructor(style,instruments){
+        this.style=style
+        this.model=model
+    }
+}
+class Artist{
+    
+}
+class Performance
 // 5. Create a class called Product with attributes for name, price, and quantity.
 // Implement a method to calculate the total value of the product (price * quantity).
 // Create multiple objects of the Product class and calculate their total values.

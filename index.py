@@ -111,6 +111,9 @@ class Species:
     
 
 class Predator :
+    def __init__(self, diet,typicalLIfespan,migrationPatterns):
+        pass
+
     def getDiet(self):
         return f"Predators kill {self.diet} and have the longest {self.typicalLIfespan}"
     
