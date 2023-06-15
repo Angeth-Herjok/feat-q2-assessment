@@ -134,13 +134,15 @@ diets.knowPrey()
 class MusicFestival{
     constructor(style,instruments){
         this.style=style
-        this.model=model
+        this.instruments=instruments
     }
 }
 class Artist{
     
 }
-class Performance
+class Performance{
+
+}
 // 5. Create a class called Product with attributes for name, price, and quantity.
 // Implement a method to calculate the total value of the product (price * quantity).
 // Create multiple objects of the Product class and calculate their total values.
